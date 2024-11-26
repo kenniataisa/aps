@@ -1,7 +1,5 @@
 ```mermaid
-
-    usecaseDiagram
-
+usecaseDiagram
     actor Cliente as "Cliente"
     actor SistemaBancario as "Sistema Bancário"
 
@@ -22,4 +20,3 @@
     (Checar Limite de Depósito) .> (Informar Quantia)
     (Emitir Comprovante) .> (Confirmar Depósito)
     (Gravar Transação) .> (Confirmar Depósito)
-```
